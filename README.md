@@ -3,26 +3,12 @@
 # Overview  
 This is a To-Do application that allows users to manage all tasks that they want to complete.
 
-![pdf2img](https://user-images.githubusercontent.com/87378628/135120383-b7200cf6-6113-4861-b92d-870120a93c15.png)
-
-# Usage and set up
-![package](https://user-images.githubusercontent.com/87378628/135120499-f13dedca-080a-443f-9520-d1633b441c96.png)
-
-PDF2IMG GUI App needs the following Python packages to be installed: 
-- pdf2image
-- tkinter
-- PIL 
-
-You can install them using ```pip install -r requirements.txt.```
+![to-do-list](images/home.png)
 
 # How to use
-After running the file main.py, a GUI window will appear. 
-![display](https://user-images.githubusercontent.com/87378628/135120639-1e6260f3-c5cf-42d6-b39e-a7f42e97bfa5.png)
+Users can see an input field where they can enter in a to-do item. By pressing enter (or a button), the User can submit the to-do item and can see that being added to a list of to-do's.
+![to-do-list](images/tasks.png)
 
+User can mark a to-do as completed or remove a to-do item by pressing on the 'x' button next to it.
+![to-do-list](images/complete.png)
 
-After pasting the directory of the PDF file into the entry box and click Convert, the application will automatically convert into an image and save it in the same folder with the program.
-![success](https://user-images.githubusercontent.com/87378628/135741075-bd6c7ff7-e56e-4f21-8615-b1622c5b7782.png)
-
-
-However, if no PDF file matching with your file location is found, there will be a message box to let you know that.
-![nopdffound](https://user-images.githubusercontent.com/87378628/135120899-979452ca-bcfb-4cb7-a889-3f60a1a70070.png)
